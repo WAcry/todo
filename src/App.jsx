@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { Sun, Moon } from 'lucide-react'
+import { Sun, Moon, Github } from 'lucide-react'
 import ProjectSidebar from './components/ProjectSidebar'
 import TaskList from './components/TaskList'
 
@@ -69,13 +69,24 @@ function App() {
         <div className="container mx-auto py-4 px-6 flex items-center justify-between">
           <h1 className="text-xl font-bold text-slate-800 dark:text-white">TODOs</h1>
           
-          <button 
-            onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
-            aria-label={darkMode ? "切换到亮色模式" : "切换到暗色模式"}
-          >
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
+          <div className="flex items-center gap-2">
+            <a 
+              href="https://github.com/WAcry/todo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+              aria-label="GitHub 仓库"
+            >
+              <Github size={20} />
+            </a>
+            <button 
+              onClick={() => setDarkMode(!darkMode)}
+              className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+              aria-label={darkMode ? "切换到亮色模式" : "切换到暗色模式"}
+            >
+              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+          </div>
         </div>
       </header>
 
