@@ -6,6 +6,8 @@ https://todo-davidzhang.vercel.app/
 
 ## 功能一览
 
+![图片](https://github.com/user-attachments/assets/ec17f35a-9914-4a60-a213-7c1c3730cfed)
+
 ### 多项目管理
 - 默认包含"工作"和"个人"两个项目
 - 可新增/删除/编辑项目
