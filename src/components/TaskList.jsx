@@ -51,15 +51,15 @@ const TaskList = ({
     }
   })();
 
-  // 任务排序：星标 > 未完成 > 优先级
+  // 任务排序：未完成 > 星标 > 优先级
   const sortedTasks = [...filteredTasks].sort((a, b) => {
-    // 星标排序
-    if (a.starred && !b.starred) return -1;
-    if (!a.starred && b.starred) return 1;
-    
     // 完成状态排序
     if (!a.completed && b.completed) return -1;
     if (a.completed && !b.completed) return 1;
+    
+    // 星标排序（相同完成状态下）
+    if (a.starred && !b.starred) return -1;
+    if (!a.starred && b.starred) return 1;
     
     // 优先级排序
     const priorityValue = { 'P0': 0, 'P1': 1, 'P2': 2 };
