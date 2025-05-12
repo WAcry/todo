@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 背景圆形 -->
+  <circle cx="12" cy="12" r="10" fill="#3b82f6" stroke="none"/>
+  
+  <!-- 清单底板 -->
+  <rect x="6" y="6" width="12" height="14" rx="2" fill="white" stroke="none"/>
+  
+  <!-- 清单线条 -->
+  <line x1="9" y1="10" x2="15" y2="10" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="9" y1="14" x2="15" y2="14" stroke="#3b82f6" stroke-width="1.5"/>
+  <line x1="9" y1="18" x2="13" y2="18" stroke="#3b82f6" stroke-width="1.5"/>
+  
+  <!-- 勾选记号 -->
+  <path d="M16 7l-1.5 1.5L16 10" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+</svg> 
