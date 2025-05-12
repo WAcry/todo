@@ -1,4 +1,4 @@
-# TODOs
+# TODOs 
 
 一个自用待办事项应用，支持多项目管理、任务优先级、星标、搜索及暗黑模式。
 
@@ -6,7 +6,7 @@ https://todo-davidzhang.vercel.app/
 
 ## 功能一览
 
-![图片](https://github.com/user-attachments/assets/ec17f35a-9914-4a60-a213-7c1c3730cfed)
+![图片](https://github.com/user-attachments/assets/7d092b7b-4faf-4168-bbaf-94a9a88fec88)
 
 ### 多项目管理
 - 默认包含"工作"和"个人"两个项目
